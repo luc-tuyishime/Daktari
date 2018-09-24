@@ -1,0 +1,10 @@
+export const SET_USER = "SET_USER";
+export const SET_PAPER = "SET_PAPER";
+export const ACCEPT_TERMS = "ACCEPT_TERMS";
+export const WEB_BASE_URL = "http://137.117.208.229:8080/daktari/api";
+export const API_BASE_URL = "http://137.117.208.229:8080/daktari/api";
+export const USER_PAYLOAD = "USER_PAYLOAD";
+export const TOGGLE_LOADER = "TOGGLE_LOADER";
+export const VERIFICATION_ERROR_CODE = "ER0002";
+export const SUCCESS = "Success";
+export const VERIFICATION = "Verification";

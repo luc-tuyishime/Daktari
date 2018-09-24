@@ -1,0 +1,597 @@
+.spinner {
+  margin: 30px auto;
+
+  width: 25px;
+
+  height: 25px;
+
+  position: relative;
+
+  text-align: center;
+
+  -webkit-animation: sk-rotate 2s infinite linear;
+
+  animation: sk-rotate 2s infinite linear;
+}
+
+.dot1,
+.dot2 {
+  width: 60%;
+
+  height: 60%;
+
+  display: inline-block;
+
+  position: absolute;
+
+  top: 0;
+
+  background-color: #333;
+
+  border-radius: 100%;
+
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+
+  animation: sk-bounce 2s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+
+  bottom: 0;
+
+  -webkit-animation-delay: -1s;
+
+  animation-delay: -1s;
+}
+
+@-webkit-keyframes sk-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes sk-rotate {
+  100% {
+    transform: rotate(360deg);
+
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bounce {
+  0%,
+  100% {
+    transform: scale(0);
+
+    -webkit-transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+
+    -webkit-transform: scale(1);
+  }
+}
+
+.sign-bgColor {
+  height: 100vh !important;
+
+  background-color: #dfe8f7 !important;
+}
+
+.sign-bgColor2 {
+  /* height: 100vh !important; */
+
+  background-color: #dfe8f7 !important;
+}
+
+.card {
+  height: auto;
+
+  border-radius: 4px;
+
+  word-wrap: break-word;
+
+  border-color: "#e9e9e9";
+}
+
+.center-card {
+  padding-top: 110px;
+}
+
+.find_card {
+  padding-top: 20px;
+
+  padding-bottom: 80px;
+}
+
+.img_map {
+  margin-left: 10px !important;
+}
+
+.savepay_login {
+  display: block !important;
+
+  margin: 0 auto !important;
+
+  margin-bottom: 10px !important;
+
+  height: 58px !important;
+
+  padding-right: 140px !important;
+
+  padding-left: 30px !important;
+}
+
+.textarea {
+  background: black !important;
+
+  opacity: 0.5;
+
+  color: white !important;
+
+  resize: none !important;
+
+  border: 1.5px solid #fff !important;
+
+  outline: none !important;
+}
+
+.textarea:focus {
+  color: white !important;
+
+  opacity: 0.8 !important;
+}
+
+.sign-form,
+.header {
+  margin-top: 10px;
+
+  margin-bottom: 35px;
+}
+
+.no_account_text {
+  text-align: center !important;
+}
+
+.margin-top {
+  margin-top: 6px !important;
+
+  color: #646464 !important;
+
+  text-align: right;
+}
+
+.daktari_logo {
+  height: 38px !important;
+
+  margin-top: 14px;
+}
+
+.savepay_logo2 {
+  margin-top: 10px;
+
+  height: 16px !important;
+}
+
+.menu_padding {
+  padding-top: 10px;
+
+  padding-left: 10px;
+
+  padding-right: 10px;
+}
+
+.nav-title {
+  color: black;
+
+  font-size: 15px;
+}
+
+.main {
+  color: black !important;
+
+  background-image: url(./img/home_bg.svg) !important;
+
+  background-repeat: no-repeat !important;
+
+  background-position: center !important;
+
+  background-size: cover !important;
+}
+
+.display-topp {
+  padding-bottom: 40px !important;
+}
+
+.main_about {
+  color: black !important;
+
+  background-image: url(./img/about_bg.svg) !important;
+
+  background-repeat: no-repeat !important;
+
+  background-position: center !important;
+
+  background-size: cover !important;
+}
+
+.main_about00 {
+  color: black !important;
+
+  background-image: url(./img/about_bg.svg) !important;
+
+  background-repeat: no-repeat !important;
+
+  background-position: center !important;
+
+  background-size: cover !important;
+
+  height: 50vh !important;
+}
+
+.doctor_detail {
+  color: #0095da !important;
+
+  font-size: 15px !important;
+}
+
+.doctor_subtext {
+  font-size: 13px !important;
+}
+
+.bg_contact {
+  background-color: rgba(0, 149, 218, 0.9);
+}
+
+.bg_contact p {
+  color: #fff;
+
+  font-size: 16px;
+}
+
+.contact_div {
+  margin-top: 20px;
+
+  margin-left: 30px;
+}
+
+.contact-div {
+  padding-top: 30px;
+}
+
+.bg_contact_white {
+  background-color: #fff !important;
+}
+
+.main2_about {
+  color: black !important;
+
+  background-image: url(./img/about_bg_2.svg) !important;
+
+  background-repeat: no-repeat !important;
+
+  background-position: center !important;
+
+  background-size: cover !important;
+}
+
+.nav-text {
+  font-size: 14px !important;
+
+  font-weight: bold !important;
+
+  line-height: 16px !important;
+}
+
+.main__ {
+  background-color: #0095da !important;
+}
+
+.main_payment {
+  color: black !important;
+
+  background-image: url(./img/demo.svg) !important;
+
+  background-repeat: no-repeat !important;
+
+  background-position: center !important;
+
+  background-size: cover !important;
+}
+
+.main2 {
+  height: 100vh;
+
+  color: black;
+
+  background-image: url(./img/home_bg.svg);
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+}
+
+.btn-need-account {
+  display: block !important;
+
+  margin: 0 auto !important;
+
+  background-color: #fac855 !important;
+
+  border-radius: 40px !important;
+}
+
+.btn-request-test {
+  background-color: #fac855 !important;
+
+  border-radius: 40px !important;
+
+  float: left !important;
+}
+
+.div_three {
+  background-color: #dfe8f7 !important;
+
+  border-color: #fff !important;
+
+  border-bottom: 1px solid #fff !important;
+}
+
+.footer_bg_color {
+  background-color: #dfe8f7 !important;
+}
+
+.footer_bg_color_ {
+  background-color: rgba(238, 248, 252, 0.35) !important;
+
+  width: 100% !important;
+
+  position: absolute !important; /*Here's what sticks it*/
+
+  bottom: 0 !important; /*to the bottom of the body/page*/
+}
+
+.img-svg {
+  display: block !important;
+
+  margin: 0 auto !important;
+}
+
+.horizontal-padding {
+  padding: 10px 12px !important;
+}
+
+.horizontal-padding-logo {
+  padding: 0px 10px !important;
+}
+
+.footer_img {
+  height: 40px !important;
+}
+
+.style_logo {
+  display: block !important;
+
+  margin: 0 auto !important;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.btn-search {
+  float: left !important;
+}
+
+.text_find {
+  color: "black" !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .small_device {
+    font-size: 23px !important;
+
+    margin-top: 9px !important;
+  }
+
+  .small_device_ {
+    font-size: 14px !important;
+
+    margin-top: 9px !important;
+  }
+}
+
+.header-menu {
+  padding: 20px;
+
+  background-color: #fff;
+
+  border-bottom: 2px solid gray;
+}
+
+.dashboard-user-profile {
+  margin-top: -85px;
+}
+
+.admin-about-us {
+  margin-top: 10px;
+
+  clear: both;
+
+  padding: 20px;
+}
+
+.keep-track-more-menu {
+  margin-bottom: 10px;
+}
+
+.logout-button {
+  margin-top: 17px;
+
+  padding-right: 10px !important;
+}
+
+.logout-button__ {
+  margin-top: 17px;
+
+  padding-right: 30px !important;
+}
+
+.custom-hr {
+  border-bottom: 1px solid #d3d3d3;
+
+  clear: both;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.daktari-widget {
+  font-size: 40px;
+
+  margin-right: 20px;
+}
+
+.react-datepicker__time-box ul {
+  padding: 0px;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+/*New Css*/
+
+.sidebar-height {
+  height: 100%;
+}
+
+.render-dashboard {
+  padding-top: 30px;
+}
+
+.profile-text {
+  margin-top: 30px !important;
+}
+
+.sidebar-bg-color {
+  background-color: #f3fbff !important;
+
+  width: 90% !important;
+}
+
+.text-left {
+  text-align: left !important;
+
+  padding-left: 40px !important;
+}
+
+.submenu-sidebar {
+  padding-top: 35px !important;
+}
+
+.yelp-font {
+  color: #887d7d !important;
+}
+
+.text_sidebar {
+  text-align: left !important;
+
+  color: #887d7d !important;
+
+  font-size: 14px !important;
+
+  margin-left: 40px !important;
+
+  position: relative !important;
+
+  bottom: 3px !important;
+}
+
+.text-color {
+  color: #887d7d !important;
+
+  font-size: 14px !important;
+
+  margin-left: 5px !important;
+
+  position: relative !important;
+
+  bottom: 3px !important;
+}
+
+.top-padding {
+  padding-top: 20px !important;
+}
+
+.inline {
+  display: inline-block !important;
+}
+
+.title-name {
+  margin-top: 20px !important;
+}
+
+/*New Dashboard Css*/
+
+.text-profile {
+  text-align: center !important;
+
+  color: #a49999 !important;
+}
+
+.text-profile_ {
+  text-align: center !important;
+
+  color: #a49999 !important;
+
+  position: relative !important;
+
+  bottom: 15px !important;
+}
+
+.text-profile__ {
+  text-align: center !important;
+
+  color: #a49999 !important;
+
+  position: relative !important;
+
+  bottom: 25px !important;
+}
+
+.email-color {
+  color: #0095da !important;
+
+  position: relative !important;
+
+  bottom: 10px !important;
+}
+
+.style-div-one {
+  padding-top: 30px !important;
+}
+
+.dashboard-user-image {
+  padding-top: 37px;
+}
